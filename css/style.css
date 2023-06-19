@@ -29,9 +29,16 @@
 .bundle .message {
     position: relative;
     display: inline-block;
-    background-color: #77787B;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.bundle .self-message{
+    background-color: #3ad262;
+}
+
+.bundle .server-message{
+    background-color: #77787B;
 }
