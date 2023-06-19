@@ -32,17 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 画面にメッセージを表示
     const displayMessage = (message) => {
-        // アイコンとメッセージ要素を包括する要素の作成
+        // アイコンとメッセージ要素を包括する要素作成
         let bundle = document.createElement("div");
         bundle.className = "bundle";
-        // アイコン要素追加
+        // アイコン要素作成
         let icon = document.createElement('img');
         icon.src = "data/mujirushi-icon.png";
         icon.alt = "icon";
         icon.className = 'icon';
         // アイコン要素の追加
         bundle.appendChild(icon);
-        // メッセージ要素追加
+        // メッセージ要素作成
         let messageElement = document.createElement('div');
         messageElement.className = 'message';
         messageElement.textContent =  message;
